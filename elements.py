@@ -13,3 +13,5 @@ def element(arr1, arr2):
       different_items.append(arr2[j]);
 
   return common_items, different_items;
+
+print(element(['a', 'c', 'b', 'o'], ['a', 'b', 'f', 'h']))
