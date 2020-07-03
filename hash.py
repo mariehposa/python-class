@@ -21,3 +21,9 @@ mydict['school'] = 'lambda'
 mydict['id'] = '1234'
 print(mydict)
 print('###')
+
+del mydict['id']
+mydict.pop('personality')
+mydict.popitem()
+print(mydict)
+print('###')
