@@ -4,3 +4,5 @@ def getIndex(arr, key):
     return index
   else:
     return('Not found')
+
+print(getIndex("hello there", 'e'))
