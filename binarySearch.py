@@ -17,3 +17,4 @@ def search (arr, start, end, key):
 
     return search(arr, start, mid-1, key)
 
+print(search([ 2, 5, 1, 9], 0, 3, 1))
