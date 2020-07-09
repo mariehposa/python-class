@@ -19,3 +19,6 @@ class LRUCache:
 			self.cache.popitem(last = False)
 
 cache = LRUCache(1) 
+
+cache.put(2, 2) 
+ 
