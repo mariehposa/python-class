@@ -19,8 +19,13 @@ def parenthesesCheck(characters):
       if current_character == '(':
         if character != ')':
           return False
-          
+
     if stack: 
         return False
     return True
   
+
+if parenthesesCheck("{([])}"): 
+    print("Balanced");  
+else : 
+    print("Not Balanced");   
