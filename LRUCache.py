@@ -18,4 +18,4 @@ class LRUCache:
 		if len(self.cache) > self.capacity: 
 			self.cache.popitem(last = False)
 
-        
+cache = LRUCache(1) 
