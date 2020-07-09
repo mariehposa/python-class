@@ -19,5 +19,8 @@ def parenthesesCheck(characters):
       if current_character == '(':
         if character != ')':
           return False
-
+          
+    if stack: 
+        return False
+    return True
   
