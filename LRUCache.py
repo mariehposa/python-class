@@ -21,4 +21,5 @@ class LRUCache:
 cache = LRUCache(1) 
 
 cache.put(2, 2) 
- 
+cache.get(1) 
+print(cache.cache)
