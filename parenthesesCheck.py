@@ -26,6 +26,6 @@ def parenthesesCheck(characters):
   
 
 if parenthesesCheck("{([])}"): 
-    print("Balanced");  
+    print("Balanced")
 else : 
-    print("Not Balanced");   
+    print("Not Balanced") 
