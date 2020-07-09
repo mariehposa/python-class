@@ -1,3 +1,5 @@
+from collections import OrderedDict 
+
 class LRUCache:
     def __init__(self, capacity: int): 
 		self.cache = OrderedDict() 
@@ -15,3 +17,5 @@ class LRUCache:
 		self.cache.move_to_end(key) 
 		if len(self.cache) > self.capacity: 
 			self.cache.popitem(last = False)
+
+        
