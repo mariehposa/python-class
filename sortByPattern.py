@@ -3,8 +3,10 @@ def sortByPattern(str, pattern):
 
     for i in pattern:
         if i in str:
-        for char in str:
-            if char == i:
-            store += char
+            for char in str:
+                if char == i:
+                    store += char
 
     return store
+
+print(sortByPattern("abaabbcdc", "abcd"))
