@@ -1,0 +1,1 @@
+def sortByPattern(str, pattern):
