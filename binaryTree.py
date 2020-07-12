@@ -17,3 +17,11 @@ def getAncestors(root, target):
   else:
     return False
 
+root = binaryTree(1) 
+root.left = binaryTree(2) 
+root.right = binaryTree(3) 
+root.left.left = binaryTree(4) 
+root.left.right = binaryTree(5) 
+root.left.left.left = binaryTree(7) 
+  
+getAncestors(root, 7) 
